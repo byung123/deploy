@@ -34,7 +34,7 @@ client:
 spring:
   config:
     activate:
-      on-profile: server
+      on-profile: green_server
 server:
   port: 9090
 client:
