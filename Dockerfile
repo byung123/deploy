@@ -2,7 +2,7 @@ FROM amazoncorretto:11-alpine-jdk
 #LABEL authors="user"
 ARG JAR_FILE=target/*.jar
 ARG PROFILES
-ARG ENV
+#ARG ENV   # 없어도 된대요
 COPY ${JAR_FILE} app.jar
 
 #ENTRYPOINT ["top", "-b"]

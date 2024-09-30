@@ -5,7 +5,7 @@ spring:
     group:
       local: local_server, common, secret
       blue: blue_server, common, secret
-      green: green-server, common, secret
+      green: green_server, common, secret
 
 ---
 
